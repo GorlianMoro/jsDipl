@@ -120,7 +120,7 @@ describe('Класс Actor', () => {
       expect(player.left).is.equal(30);
     });
 
-    it('Имеет свойство right, которое содержит координату правой границы объекта оп оси X', () => {
+    it('Имеет свойство right, которое содержит координату правой границы объекта по оси X', () => {
       const player = new Actor(position, size);
 
       expect(player.right).is.equal(35);
@@ -132,7 +132,7 @@ describe('Класс Actor', () => {
       expect(player.top).is.equal(50);
     });
 
-    it('Имеет свойство bottom, которое содержит координату правой границы объекта оп оси Y', () => {
+    it('Имеет свойство bottom, которое содержит координату правой границы объекта по оси Y', () => {
       const player = new Actor(position, size);
 
       expect(player.bottom).is.equal(55);
